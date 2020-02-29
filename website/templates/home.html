@@ -5,8 +5,8 @@
 	<head>
 		<!-- Mobile Specific Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<!-- Favicon-->
-		<link rel="shortcut icon" href="{% static 'website/img/fav.png' %}">
+		<!-- Favicon
+		<link rel="shortcut icon" href="{% static 'website/img/fav.png' %}">-->
 		<!-- Author Meta -->
 		<meta name="author" content="pawook">
 		<!-- Meta Description -->
@@ -60,7 +60,7 @@
 				</div>
 			    <div class="container main-menu">
 			    	<div class="row align-items-center justify-content-between d-flex">
-			    		<a href="/"><img src="{% static 'website/img/logo.png' %}" alt="" title="" /></a>		
+			    		<a href="{% url 'home' %}"><img src="{% static 'website/img/logo.png' %}" alt="" title="" /></a>		
 						<nav id="nav-menu-container">
 							<ul class="nav-menu">
 							  <li class="menu-active"><a href="{% url 'home' %}">Home</a></li>
